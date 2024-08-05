@@ -44,7 +44,7 @@
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "no",
+      "value": "yes",
       "required": true
     },
     "HEROKU_APY_KEY": {
@@ -57,18 +57,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUM2VTU3ZEFXRUw5WmRmblFTMUpWVmtJQ1AwVU5GNEtFZ01BTWtoUlFtUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaEdLYVdyU0dJa2NnYWQ3NklNemJNSzNoRlpyNzNPWjhPeTJMMURrNHZHRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVSnJNeHd4cC9MR0l4NVlieEdmNmRCSWxrb1VLSDVOd0R2U053anNvREVZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDRThzemNQZms2V3lVQ2Q5TEoxUjgrSCtrY2xqdm41YjQ3bWVWdmpSMENnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1ESFErVmZyTnN1TXNUTHhUWHdYK0J0S2VFSGp5a203Um9IYjJBbklMSFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVPbW5pbTU0djhiNEJhaStzUGs4d3N2ZGdKZEtTNHF2UExXa2dBMnFxaTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNEM3SVFwaFZYc1JLZHpRek5oMzVnVURSSzVPVURyOThsWHRFK1VzU0RHQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieGJaaExlZ2NNRXRZRXJncTZEczMxWnYrNFZyUkhVN3VHQ3dicHJpSTFoZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpzRUQ4UWs1T0xZQXRObVRhYnlBcXFYY0RteTNzYlRPTG5VVkNyQ3g2TU9pMFBWLzBUdTNEMnZRVHNGOHdNQjBtbmo4RUpEOWFFQkNHdEFKWWcreENBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTEyLCJhZHZTZWNyZXRLZXkiOiJnM054NU4zVkN2N0krZVRsOG1xWFJ5LzJWRUZuTkgwbHlXZnU4M1pLQUVNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ4aXg1OTdYV1NKZTJQdUgxYjE1bmNBIiwicGhvbmVJZCI6IjE4ZWMyN2NlLWYxZWUtNGQxOC05ZTJiLThkZmVmOGEyMjVhMyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJiQjBwVm9rcFYxUTBrcDZ3TmFHaGptM1BuOTg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT1Jxa2NML1VDd2QyUHllZWtJRVRsUlZGMkhnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlRNWVFDQVBGIiwibWUiOnsiaWQiOiIyNDE2MDMyNDc5NzoyOEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJib3QifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ056SzdxUUVFSXVudzdVR0dBb2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkppZE11bkwwZlVTVk9sMDg1aDNPNWxoQSs5QTRPaDV0aFh2L1BrenJPV0U9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlZBZ1JRZm00b1oxOHV5SUhLaXVHUlBhYkE5WTczTkhtZDQrRDkxWnpOb3dydHUyT3p1bGZ6dUNEVlptaTdXK0VFNjhkVUNtSThMQ2FJMVJaSEl6R0F3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJrYjZHRTR5Yk9ybEg2UGFaWVRUVzBLdnNFbzY5czNrbGdlQTgvVmlDQms2V2ZhbWQyVk9kZW5Tb1A3aTRRUzNkQXNrZzQ1K05sTXNJVkVIQ1JqVEFEUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI0MTYwMzI0Nzk3OjI4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlNZblRMcHk5SDFFbFRwZFBPWWR6dVpZUVB2UU9Eb2ViWVY3L3o1TTZ6bGgifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjI4NjQ1Mzd9",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "joel-it🕷️"
+      "value": "kïñg khalid"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "255714595078"
+      "value": "2348023898600"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -88,7 +88,7 @@
     "PM_CHATBOT": {
       "description": "Put yes if you want the bot to automatically respond to messages in private",
       "required": false,
-      "value": "no"
+      "value": "yes"
     },
     "ANTI_VIEW_ONCE": {
       "description": "Put yes if you want to receive in pm all view once content",
